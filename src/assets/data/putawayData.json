@@ -1,0 +1,61 @@
+{
+   "putawayData" : [
+      {
+         "pallet" : "SKM00001",
+         "stagingbin" :"STG01",
+         "bin" : " "
+      },
+      {
+         "pallet" : "SKM00002",
+         "stagingbin" : "STG01",
+         "bin" : " "
+      },
+      {
+         "pallet" : "SKM00003",
+         "stagingbin" : "STG01",
+         "bin" : ""
+      },
+      {
+         "pallet" : "SKM00004",
+         "stagingbin" : "STG01",
+         "bin" : " "
+      },
+      {
+         "pallet" : "SKM00005",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01002"
+      },
+      {
+         "pallet" : "SKM00006",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01001"
+      },
+      {
+         "pallet" : "SKM00007",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01003"
+      },
+      {
+         "pallet" : "SKM00008",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01004"
+      },
+      {
+         "pallet" : "SKM00006",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01001"
+      },
+      {
+         "pallet" : "SKM00007",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01003"
+      },
+      {
+         "pallet" : "SKM00008",
+         "stagingbin" : "STG02",
+         "bin" : "AZ01004"
+      }
+      
+      
+   ]
+}

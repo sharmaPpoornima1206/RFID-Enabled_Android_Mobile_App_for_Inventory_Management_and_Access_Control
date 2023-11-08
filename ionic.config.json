@@ -1,0 +1,7 @@
+{
+  "name": "Rfid",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

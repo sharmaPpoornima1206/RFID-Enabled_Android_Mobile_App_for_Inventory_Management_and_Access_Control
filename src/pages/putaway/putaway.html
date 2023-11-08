@@ -1,0 +1,60 @@
+
+ <ion-header>
+
+  <!-- <ion-navbar>
+    <ion-title>PUTAWAY</ion-title>
+  </ion-navbar> -->
+  <ion-row>
+    <ion-col col-3>
+      <ion-item class="gate">
+        <ion-label>GATE IN No.</ion-label>
+         <!-- <ion-select [(ngModel)]="gate"></ion-select>  -->
+         <ion-select >
+            <ion-option value="">01</ion-option>
+            <ion-option value="">02</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+  
+      <ion-col col-3>
+        <ion-item class="priority">
+            <ion-label>PRIORITY</ion-label>
+            <!-- <ion-select [(ngModel)]="priority"></ion-select> -->
+            <ion-select >
+              <ion-option value="">01</ion-option>
+              <ion-option value="">02</ion-option>
+            </ion-select>
+          </ion-item>
+      </ion-col>    
+      <ion-col col-3>
+        <button ion-button button-large class="btnScan" (click)="scan()">SCAN</button>
+      </ion-col> 
+      <ion-col col-1>
+        <button ion-button button-large class="btnback" (click)="back()">BACK</button>
+      </ion-col>  
+    </ion-row>
+
+</ion-header> 
+
+<ion-content class="no-scroll" padding>
+    <div>
+      Pallet :  {{scanData.pallet}} -->
+     Pallet :  {{scanData.pallet}}
+     Bin : {{scanData.bin}}
+    
+    </div>
+ 
+    <div>
+        <ngx-datatable style="height: 540px;"
+        [sortType]="'multi'"
+        [headerHeight]="55"
+        [rowHeight]="55"
+        [rows]="rows"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [limit]="100"
+        [scrollbarV]="true">
+        </ngx-datatable>
+      </div>
+      
+     </ion-content>

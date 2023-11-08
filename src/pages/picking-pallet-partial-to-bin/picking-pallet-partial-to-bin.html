@@ -1,0 +1,56 @@
+<!-- 
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PICKING PALLET PARTIAL TO BIN</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+  
+  <ion-content padding>
+
+      <h1 class="h1">PUT PALLET TO BIN AND SCAN</h1>
+
+    
+    <div>
+
+      <ion-row>
+        <ion-col  col-5>
+            <ion-label class="label1">SCANNED PALLET</ion-label>
+        </ion-col>
+      <ion-col col-5>
+            <ion-label class="label1">SCANNED BIN</ion-label>
+         </ion-col>    
+      </ion-row>
+   
+      <ion-row>
+        <ion-col  col-5>
+          <ion-item>
+            <ion-input type ="text" class="text1" placeholder ="" value="SKM0003"></ion-input>
+          </ion-item>
+          </ion-col>
+        <ion-col col-5>
+            <ion-item>
+            <ion-input type = "text" class="text1" placeholder ="" value="AZ01001"></ion-input>
+            </ion-item>
+        </ion-col>    
+      </ion-row>
+    </div>
+    
+    <br>
+      <div>
+      <ion-row>
+        <ion-col col-3>
+        <button ion-button button-large class="btn2" (click)="ok()">OK</button>
+        </ion-col> 
+        <ion-col col-3>  
+        <button ion-button button-large class="btn2" >CLEAR</button> 
+        </ion-col>
+        <ion-col col-3>
+        <button default ion-button item-right class="btn2">SCAN</button>
+      </ion-col>
+      </ion-row>
+    </div>
+   
+  </ion-content>
+  

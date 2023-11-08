@@ -1,0 +1,66 @@
+{
+    "picking" : [
+       {
+          "pallet" : "SKM00001",
+          "bin" :"AZ01001",
+          "stgpallet":"SKM0001",
+          "binpallet":"asdfghn"
+       },
+       {
+        "pallet" : "SKM00002",
+        "bin" :"AZ01002",
+        "stgpallet":"SKM0002",
+        "binpallet":""
+       },
+       {
+        "pallet" : "SKM00003",
+        "bin" :"AZ01003",
+        "stgpallet":"SKM0008",
+        "binpallet":"SKM0003"
+       },
+       {
+        "pallet" : "SKM00004",
+        "bin" :"AZ01004",
+        "stgpallet":"SKM0004",
+        "binpallet":""
+       },
+       {
+        "pallet" : "SKM00005",
+        "bin" :"AZ01005",
+        "stgpallet":"SKM0005",
+        "binpallet":""
+       },
+       {
+        "pallet" : "SKM00006",
+        "bin" :"AZ01006",
+        "stgpallet":"SKM0007",
+        "binpallet":"SKM0006"
+       }
+       ,
+       {
+        "pallet" : "SKM00007",
+        "bin" :"AZ01003",
+        "stgpallet":"SKM0008",
+        "binpallet":"SKM0003"
+       },
+       {
+        "pallet" : "SKM00008",
+        "bin" :"AZ01004",
+        "stgpallet":"SKM0004",
+        "binpallet":""
+       },
+       {
+        "pallet" : "SKM00009",
+        "bin" :"AZ01005",
+        "stgpallet":"SKM0005",
+        "binpallet":""
+       },
+       {
+        "pallet" : "SKM00010",
+        "bin" :"AZ01006",
+        "stgpallet":"SKM0007",
+        "binpallet":"SKM0006"
+       }
+       
+    ]
+ }

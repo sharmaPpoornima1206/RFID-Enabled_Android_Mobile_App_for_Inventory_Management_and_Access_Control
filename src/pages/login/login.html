@@ -1,0 +1,33 @@
+
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>LOGIN</ion-title>
+  </ion-navbar>
+ </ion-header> -->
+  
+ <ion-content padding>
+  <ion-list>
+      <form [formGroup]="authForm" (ngSubmit)="signin(authForm.value)"  >
+    <ion-item>
+      <ion-label floating style="font-size: 30px">Enter Username Here</ion-label>
+      <ion-input type="text" value="" [formControl]="authForm.controls['username']" [ngClass]="{'error-border':!authForm.controls['username'].valid}"></ion-input>
+    <div class="error-box" *ngIf="authForm.controls['username'].hasError('required') && authForm.controls['username'].touched">* Username is required!</div>
+      
+    <!-- <ion-input type="text" formControlName="username" required="true"></ion-input> -->
+    </ion-item>
+  <ion-item>
+    <ion-label floating style="font-size: 30px">Enter Password Here</ion-label>
+    <ion-input type="text" value="" [formControl]="authForm.controls['password']">
+    </ion-input>
+    <div class="error-box" *ngIf="authForm.controls['password'].hasError('required') && authForm.controls['password'].touched">* Username is required!</div>
+    
+      <!-- <ion-input type="password" formControlName="password" required="true"></ion-input> -->
+    </ion-item>
+  
+  <div padding>
+      <button type="submit" ion-button full [disabled]="!authForm.valid" color="secondary">Login</button>
+    <!-- <button ion-button block (click)="signin(loginform.value)" color="secondary">Login</button> -->
+  </div>
+  </form>
+  </ion-list>
+ </ion-content>

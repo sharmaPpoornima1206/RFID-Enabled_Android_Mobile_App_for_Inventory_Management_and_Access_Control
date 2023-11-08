@@ -1,0 +1,116 @@
+
+
+.btnScan{
+
+    border-radius: 18px;
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #4caf50;
+}
+
+.btnback{
+    width:200%;
+    font-size: 25px;
+}
+
+.gate{
+  font-size: 30px;
+   
+}
+
+.priority{
+    font-size: 30px;  
+  
+}
+
+.no-scroll .scroll-content{
+    overflow: hidden;
+    
+  }
+    page-putaway {
+       
+         .datatable-header {
+            background: rgba(164, 192, 214,1);
+            font-size: 100%;
+            
+         }
+     
+         .datatable-header-cell {
+            // font-size: 1.2em;
+            // font-weight: bold;
+            border: 1px solid;
+         }
+        .ngx-datatable{
+            height: 100vh;
+            padding-bottom: 60px;
+            font-size: 30px;
+            font-weight: bold;
+            border: 1px solid;
+        }
+         .datatable-body-row {
+        //    padding: 0;
+        border: 1px solid;
+        height: 450px;
+        
+         }
+     
+        // .datatable-row-even {
+        //    background: rgba(240, 240, 240, 1);
+        // }
+     
+        // .datatable-row-odd {
+        //    background: rgba(255, 255, 255,1);
+        // }
+     
+         .datatable-body-cell {
+            // font-size: 1.2em;
+            // padding: 1em;
+            border: 1px solid;
+         }
+
+         .datatable-body{
+             height: 400px;
+         }
+     
+     
+        // Style footer appearance
+        // .datatable-footer {
+        //    background: rgba(218, 226, 234,1);
+        //    padding: 0 1em 0 1em;
+     
+        //    .pager {
+        //       li {
+        //           // padding: 0 1em !important;
+     
+        //            a {
+        //               color: rgba(68, 68, 68, 1);
+        //               text-decoration: none;
+        //            }
+        //         }
+        //    }
+        // }
+     
+     
+        // Style rules for the footer pagination elements
+        // .datatable-icon-done-all:before {
+        //    content: ">>";
+        // }
+     
+        // .datatable-icon-left:before {
+        //    content: "<";
+        // }
+     
+        // .datatable-icon-right:before {
+        //    content: ">";
+        // }
+     
+        // .datatable-icon-skip:before {
+        //    content: ">>";
+        // }
+     
+        // .datatable-icon-prev:before {
+        //    content: "<<";
+        // }
+     
+     }
